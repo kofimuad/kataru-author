@@ -4,7 +4,7 @@
   functions = "netlify/functions"
 
 [build.environment]
-  SECRETS_SCAN_OMIT_KEYS = "VITE_ADMIN_PIN,VITE_ADMIN_SECRET"
+  SECRETS_SCAN_OMIT_KEYS = "VITE_ADMIN_PIN,VITE_ADMIN_SECRET,ADMIN_PIN"
 
 [dev]
   command = "npm run dev"
