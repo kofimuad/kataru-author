@@ -1,0 +1,47 @@
+.contact-grid {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 5rem;
+  padding-bottom: 4rem;
+}
+
+.contact-block {
+  margin-bottom: 2rem;
+}
+
+.contact-block__label {
+  font-family: var(--ff-sans);
+  font-size: 0.65rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  margin-bottom: 0.35rem;
+}
+
+.contact-block__value {
+  font-family: var(--ff-serif);
+  font-size: 1.05rem;
+  color: var(--ink);
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.contact-block__value:hover {
+  color: var(--burgundy);
+  border-color: var(--burgundy);
+}
+
+.contact-form {
+  padding-top: 0.25rem;
+}
+
+.contact-form .btn {
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 700px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
