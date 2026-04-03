@@ -10,15 +10,14 @@ export default function Footer() {
         <div className="footer__inner">
           <div className="footer__brand">
             <span className="footer__name">Kataru Yahya</span>
-            <p className="footer__tagline">Writer · Poet · Facilitator</p>
           </div>
 
           <nav className="footer__nav" aria-label="Footer navigation">
             <Link to="/">Bio</Link>
             <Link to="/books">Books</Link>
-            <Link to="/publications">Publications</Link>
+            <Link to="/publications">Other publications</Link>
             <Link to="/interviews">Interviews</Link>
-            <Link to="/facilitation">Facilitation</Link>
+            <Link to="/facilitation">Others</Link>
             <Link to="/contact">Contact</Link>
           </nav>
 

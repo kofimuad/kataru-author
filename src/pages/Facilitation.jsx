@@ -18,9 +18,9 @@ export default function Facilitation() {
       <div className="page-wrap">
         <header className="inner-page__header">
           <p className="inner-page__eyebrow">Kataru Yahya</p>
-          <h1 className="inner-page__title">Facilitation &amp; Workshops</h1>
+          <h1 className="inner-page__title">Others</h1>
           <p className="inner-page__desc">
-            Writing workshops, creative literacy programmes, commissions, and other work facilitated for communities and institutions.
+            Workshops, facilitation, residencies, commissions, and related creative collaborations.
           </p>
         </header>
 
