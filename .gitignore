@@ -5,3 +5,9 @@ dist
 *.log
 .DS_Store
 .netlify
+# test connection scripts that may contain sensitive MongoDB URIs
+test-connect.cjs
+test-connect-dir.cjs
+test-primary.cjs
+dns-test.cjs
+test-connect.js
