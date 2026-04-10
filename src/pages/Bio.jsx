@@ -50,7 +50,6 @@ export default function Bio() {
           </div>
 
           <div className="bio-text-col">
-            <p className="bio-eyebrow">Bio</p>
             <h1 className="bio-name">Kataru<br />Yahya</h1>
             <div className="bio-rule" />
 
@@ -77,10 +76,10 @@ export default function Bio() {
 
         <section className="bio-nav-grid">
           {[
-            { label: 'Books',        path: '/books',       desc: 'Published works' },
-            { label: 'Publications', path: '/publications', desc: 'Essays, poems & more' },
-            { label: 'Interviews',   path: '/interviews',  desc: 'Conversations' },
-            { label: 'Facilitation', path: '/facilitation', desc: 'Workshops & commissions' },
+            { label: 'Books',             path: '/books',       desc: 'Published works' },
+            { label: 'Other publications', path: '/publications', desc: 'Essays, poems & more' },
+            { label: 'Interviews',        path: '/interviews',  desc: 'Conversations' },
+            { label: 'Others',            path: '/facilitation', desc: 'Workshops, facilitation, residencies' },
           ].map(({ label, path, desc }) => (
             <Link key={path} to={path} className="bio-nav-card">
               <span className="bio-nav-card__label">{label}</span>
@@ -93,10 +92,10 @@ export default function Bio() {
         <section className="bio-newsletter">
           <div className="bio-newsletter__text">
             <h2 className="bio-newsletter__heading">Subscribe to the newsletter</h2>
-            <p className="bio-newsletter__sub">Essays, poems, and dispatches — delivered via Substack.</p>
+            <p className="bio-newsletter__sub">Writing updates, freebies, and more.</p>
           </div>
           <a href="https://substack.com/@kataru" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
-            Subscribe on Substack ↗
+            Subscribe ↗
           </a>
         </section>
 

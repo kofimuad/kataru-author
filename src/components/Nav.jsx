@@ -3,12 +3,12 @@ import { NavLink, useLocation } from 'react-router-dom'
 import './Nav.css'
 
 const links = [
-  { label: 'Bio',           path: '/' },
-  { label: 'Books',         path: '/books' },
-  { label: 'Publications',  path: '/publications' },
-  { label: 'Interviews',    path: '/interviews' },
-  { label: 'Facilitation',  path: '/facilitation' },
-  { label: 'Contact',       path: '/contact' },
+  { label: 'Bio',              path: '/' },
+  { label: 'Books',            path: '/books' },
+  { label: 'Other publications', path: '/publications' },
+  { label: 'Interviews',       path: '/interviews' },
+  { label: 'Others',           path: '/facilitation' },
+  { label: 'Contact',          path: '/contact' },
 ]
 
 export default function Nav() {

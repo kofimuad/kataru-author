@@ -43,9 +43,9 @@ export default function Footer() {
           <nav className="footer__nav" aria-label="Footer navigation">
             <Link to="/">Bio</Link>
             <Link to="/books">Books</Link>
-            <Link to="/publications">Publications</Link>
+            <Link to="/publications">Other publications</Link>
             <Link to="/interviews">Interviews</Link>
-            <Link to="/facilitation">Facilitation</Link>
+            <Link to="/facilitation">Others</Link>
             <Link to="/contact">Contact</Link>
           </nav>
 

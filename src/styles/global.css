@@ -134,6 +134,13 @@ p {
   color: var(--ink);
 }
 
+.btn.active,
+.btn-ghost.active {
+  background: var(--burgundy);
+  color: var(--white);
+  border-color: var(--burgundy);
+}
+
 /* ── FORM FIELDS ─────────────────────────────────────────────── */
 .field-group { margin-bottom: 1.25rem; }
 
