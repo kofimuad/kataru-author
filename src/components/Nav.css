@@ -24,6 +24,9 @@
 
 /* Wordmark */
 .nav__wordmark {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
   font-family: var(--ff-serif);
   font-size: 1.25rem;
   font-weight: 400;
@@ -34,6 +37,21 @@
 }
 
 .nav__wordmark:hover { color: var(--burgundy); }
+
+.nav__logo {
+  width: 2rem;
+  height: auto;
+  display: block;
+  flex-shrink: 0;
+}
+
+.nav__logo g {
+  stroke: var(--burgundy);
+}
+
+.nav__logo text {
+  fill: var(--burgundy);
+}
 
 /* Desktop links */
 .nav__links {
