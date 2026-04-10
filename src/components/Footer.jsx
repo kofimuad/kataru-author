@@ -37,7 +37,7 @@ export default function Footer() {
                 K
               </text>
             </svg>
-            <p className="footer__tagline">Writer · Poet · Facilitator</p>
+            <p className="footer__name">Kataru Yahya</p>
           </div>
 
           <nav className="footer__nav" aria-label="Footer navigation">
