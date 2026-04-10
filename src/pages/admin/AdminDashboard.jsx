@@ -8,7 +8,7 @@ const SECTIONS = [
   { id: 'books', label: 'Books' },
   { id: 'publications', label: 'Publications' },
   { id: 'interviews', label: 'Interviews' },
-  { id: 'workshops', label: 'Facilitation' },
+  { id: 'workshops', label: 'Others' },
 ]
 
 const FIELDS = {
